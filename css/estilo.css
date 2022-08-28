@@ -5,21 +5,30 @@ body {
     font-family: 'Tahoma';
 }
 
-a {
+p a {
     font-family: 'Tahoma';
+    text-decoration: none;
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    margin: 0;
 }
 
 header{
     padding: 30px 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   text-align: center;
+    background-color: #afddfb;
+}
+
+header img {
+    width: 150px;
+    margin: auto;
 }
 
 header p{
-    margin: 10px auto;
+    margin: 15px 10px 25px 10px;
+    text-align: center;
 }
 
 section p {
@@ -30,11 +39,18 @@ section p {
     line-height: 28px;
 }
 
+p {
+    margin: auto;
+   
+}
+
 nav {
-    width: 100%;
+    width: 400px;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
