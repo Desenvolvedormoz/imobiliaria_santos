@@ -39,6 +39,15 @@ section p {
     line-height: 28px;
 }
 
+.banner {
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
 p {
     margin: auto;
    
