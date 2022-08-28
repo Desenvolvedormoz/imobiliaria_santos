@@ -2,4 +2,44 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Tahoma';
+}
+
+a {
+    font-family: 'Tahoma';
+}
+
+header{
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header p{
+    margin: 10px auto;
+}
+
+section p {
+    margin: 10px auto;
+    width: 930px;
+    text-align: justify;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+section {
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
